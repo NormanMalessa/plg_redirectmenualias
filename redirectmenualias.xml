@@ -8,7 +8,7 @@
 	<authorEmail>mail@norman-malessa.de</authorEmail>
 	<authorUrl>www.norman-malessa.de</authorUrl>
 	<version>1.0.0</version>
-	<description>This plugin will redirect all your menu aliases to their target with a 301 redirect.</description>
+	<description>This plugin will redirect all your menu aliases to their target with a 303 redirect.</description>
 	<files>
 		<filename plugin="redirectmenualias">redirectmenualias.php</filename>
 	</files>
