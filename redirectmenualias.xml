@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="plugin" group="system" method="upgrade">
+	<name>System - RedirectMenuAlias</name>
+	<author>Norman Malessa</author>
+	<creationDate>2018/03/24</creationDate>
+	<copyright>Copyright (C) 2018 Norman Malessa. All rights reserved.</copyright>
+	<license>The MIT license; see LICENSE</license>
+	<authorEmail>mail@norman-malessa.de</authorEmail>
+	<authorUrl>www.norman-malessa.de</authorUrl>
+	<version>1.0.0</version>
+	<description>This plugin will redirect all your menu aliases to their target with a 301 redirect.</description>
+	<files>
+		<filename plugin="redirectmenualias">redirectmenualias.php</filename>
+	</files>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.plg_system_redirectmenualias.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+			</fieldset>
+		</fields>
+	</config>
+	<updateservers>
+		<server type="extension" priority="1" name=""><![CDATA[http://joomla.norman-malessa.de/updates/plg_redirectmenualias.xml]]></server>
+	</updateservers>
+</extension>
